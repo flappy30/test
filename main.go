@@ -69,6 +69,7 @@ func main() {
 	for i := 0; i < 1; i++ {
 		clearTerminal()
 		fmt.Print("Введите мод или выйдите...\n'-help' - для изучения команд\n\n")
+		fmt.Print("Иди нахуй)\n")
 	}
 	for {
 		modeSelection()
